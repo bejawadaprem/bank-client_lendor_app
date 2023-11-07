@@ -70,3 +70,8 @@ class cp(cpTemplate):
   def link_13_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form("lendor_registration_form.dashboard.vep")
+
+  def button_2_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    alert("Password changed Successfully Please Login Again")
+    open_form("bank_users.main_form")

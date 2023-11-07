@@ -30,6 +30,96 @@ components:
       underline: false, icon: ''}
     name: label_1
     layout_properties: {grid_position: 'WDYTAU,UAKGEV'}
+  - name: outlined_card_1
+    properties: {role: outlined-card, col_widths: '{}'}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'BCYQAU,MKKSBS'}
+    components:
+    - type: GridPanel
+      properties: {}
+      name: grid_panel_1
+      layout_properties: {grid_position: 'IELPNM,TOOOAZ'}
+      components:
+      - type: LinearPanel
+        properties: {}
+        name: linear_panel_1
+        layout_properties: {row: QEQEFN, width_xs: 3, col_xs: 3}
+        components:
+        - type: Label
+          properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+            visible: true, text: 'Current Password :', font_size: null, font: '',
+            spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+            background: '', bold: true, underline: false, icon: ''}
+          name: label_2
+          layout_properties: {}
+      - type: LinearPanel
+        properties: {}
+        name: linear_panel_2
+        layout_properties: {row: QEQEFN, width_xs: 3, col_xs: 6}
+        components:
+        - type: TextBox
+          properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter Your Current Password,
+            border: '', enabled: true, foreground: '', visible: true, text: '', font_size: 13,
+            font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+            background: '', bold: false, underline: false}
+          name: text_box_1
+          layout_properties: {}
+      - type: LinearPanel
+        properties: {}
+        name: linear_panel_3
+        layout_properties: {row: MVEEYR, width_xs: 3, col_xs: 3}
+        components:
+        - type: Label
+          properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+            visible: true, text: 'New Password :', font_size: null, font: '', spacing_above: small,
+            icon_align: left, spacing_below: small, italic: false, background: '',
+            bold: true, underline: false, icon: ''}
+          name: label_3
+          layout_properties: {}
+      - type: LinearPanel
+        properties: {}
+        name: linear_panel_4
+        layout_properties: {row: MVEEYR, width_xs: 3, col_xs: 6}
+        components:
+        - type: TextBox
+          properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Enter New Password,
+            border: '', enabled: true, foreground: '', visible: true, text: '', font_size: 13,
+            font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+            background: '', bold: false, underline: false}
+          name: text_box_2
+          layout_properties: {}
+      - type: LinearPanel
+        properties: {}
+        name: linear_panel_5
+        layout_properties: {row: NYXEUR, width_xs: 3, col_xs: 3}
+        components:
+        - type: Label
+          properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+            visible: true, text: 'Confirm New Password :', font_size: null, font: '',
+            spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+            background: '', bold: true, underline: false, icon: ''}
+          name: label_4
+          layout_properties: {}
+      - type: LinearPanel
+        properties: {}
+        name: linear_panel_6
+        layout_properties: {row: NYXEUR, width_xs: 3, col_xs: 6}
+        components:
+        - type: TextBox
+          properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Confirm New Password,
+            border: '', enabled: true, foreground: '', visible: true, text: '', font_size: 13,
+            font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+            background: '', bold: false, underline: false}
+          name: text_box_3
+          layout_properties: {}
+    - type: Button
+      properties: {role: filled-button, align: center, tooltip: '', border: '', enabled: true,
+        foreground: '', visible: true, text: Submit, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '#0876e8',
+        bold: false, underline: false, icon: ''}
+      name: button_2
+      layout_properties: {grid_position: 'YJTABD,ACXGSC'}
+      event_bindings: {click: button_2_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
