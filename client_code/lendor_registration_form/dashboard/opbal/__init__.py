@@ -12,7 +12,7 @@ class opbal(opbalTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
-    self.user_id = '4891'
+    '''self.user_id = '4891'
     
     #initial_commitment = user_request['initial_commitment']
         # Fetch the data for the specific user from your table
@@ -20,7 +20,7 @@ class opbal(opbalTemplate):
     initial_commitment = user_request['initial_commitment']
     self.output_lbl.text = f" {initial_commitment}"
     #user_requests = app_tables.view_bor_loan_requests.search(user_id=self.user_id)
-    #self.repeating_panel_1.items = user_requests
+    #self.repeating_panel_1.items = user_requests'''
 
     # Any code you write here will run before the form opens.
 
