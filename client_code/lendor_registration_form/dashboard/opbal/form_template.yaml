@@ -49,7 +49,7 @@ components:
   name: navbar_links
   layout_properties: {slot: nav-right}
 - type: ColumnPanel
-  properties: {role: elevated-card, tooltip: '', border: '', foreground: '', visible: true,
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
     wrap_on: mobile, col_spacing: tiny, spacing_above: none, col_widths: '{}', spacing_below: small,
     background: ''}
   name: column_panel_1
